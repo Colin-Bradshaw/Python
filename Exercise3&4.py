@@ -75,6 +75,7 @@ for num in range(2000, 3201):
             continue
         print(num, end = ", " )
 print()
+
 # 4 Question 2
 print("Enter the number you would like the factorial of")
 num = int(input())
@@ -88,3 +89,36 @@ elif num < 0:
     for index in range(num, 0):
         product *= index
 print(product)
+
+# 4 Question 3
+print("Enter the number you would like to use to generate the dictionary")
+num = input()
+dict = {}
+for index in range(num):
+    dict[index] = index**2
+print(dict)
+
+# 4 Question 4
+print('provide comma seperated list of numbers')
+line = input()
+line = line.split(',') # line is now a list of strings
+lst = []
+for item in line:
+    lst.append(int(line[item]))
+tup = tuple(lst)
+print(lst)
+print(tup)
+
+# 4 Question 5
+
+class ExObject:
+
+    def __init__ (self):
+        self.text = 'I am the walrus'
+
+    def getString (self):
+        return self.text
+
+    def printString (self):
+        print(self.text)
+
