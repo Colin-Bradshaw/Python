@@ -68,6 +68,10 @@ print(set('Mississippi').union('X'))
 # 4.9
 print(set([1, 1, 2, 3])) # output {1, 2, 3}
 
+#################################
+##### Additional Questions ######
+#################################
+
 # 4 Question 1
 for num in range(2000, 3201):
     if num % 7 == 0:
