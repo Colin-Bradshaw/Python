@@ -30,9 +30,9 @@ print(set('Mississippi'))
 
 # 3.5
 print("Enter the number of phrases you would like to test as palindromes")
-#for i in range(int(input())):
-#    print("Enter the word or phrase you would like to test")
-#    print(palindrome(input()))
+for i in range(int(input())):
+    print("Enter the word or phrase you would like to test")
+    print(palindrome(input()))
 
 #################################
 ####### Coding Exercise 4 #######
@@ -92,7 +92,7 @@ print(product)
 
 # 4 Question 3
 print("Enter the number you would like to use to generate the dictionary")
-num = input()
+num = int(input())
 dict = {}
 for index in range(num):
     dict[index] = index**2
@@ -110,6 +110,7 @@ print(lst)
 print(tup)
 
 # 4 Question 5
+
 
 class ExObject:
 
