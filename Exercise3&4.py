@@ -94,7 +94,7 @@ print(product)
 print("Enter the number you would like to use to generate the dictionary")
 num = int(input())
 dict = {}
-for index in range(num):
+for index in range(num+1):
     dict[index] = index**2
 print(dict)
 
@@ -103,7 +103,7 @@ print('provide comma seperated list of numbers')
 line = input()
 line = line.split(',') # line is now a list of strings
 lst = []
-for item in line:
+for item in range(len(line)):
     lst.append(int(line[item]))
 tup = tuple(lst)
 print(lst)
